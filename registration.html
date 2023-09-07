@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Brand - Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <header id="home" class="header center">
+        <div class="header__left">
+            <ul class="menu-left">
+                <li class="menu-left__item"><a class="menu__link" href="index.html">
+                    <img class="menu__logo-img" src="img/logo.png" alt="logo">
+                </a></li>
+                <li class="menu-left__item"><a class="menu__link" href="#">
+                    <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.0589 17.6249C20.6705 15.8648 21.6275 13.6038 21.769 11.2215C21.9106 8.8392 21.2281 6.48075 19.8362 4.5422C18.4443 2.60365 16.4278 1.20306 14.1252 0.575643C11.8227 -0.0517774 9.37437 0.132183 7.19143 1.09663C5.0085 2.06108 3.22389 3.74727 2.1373 5.87205C1.05071 7.99682 0.728322 10.4308 1.22426 12.7652C1.72021 15.0996 3.00428 17.1922 4.86085 18.6917C6.71741 20.1912 9.0334 21.0063 11.4199 20.9999C13.6723 21.003 15.8638 20.269 17.6599 18.9099L25.4079 26.7169C25.4934 26.806 25.5958 26.8771 25.7091 26.926C25.8225 26.975 25.9444 27.0008 26.0679 27.0019C26.1916 27.0023 26.314 26.9772 26.4276 26.9282C26.5411 26.8792 26.6434 26.8072 26.7279 26.7169C26.9018 26.536 26.999 26.2949 26.999 26.0439C26.999 25.793 26.9018 25.5518 26.7279 25.3709L19.0589 17.6249ZM2.88589 10.4999C2.89873 8.81465 3.41021 7.17089 4.35586 5.77587C5.30151 4.38086 6.63899 3.29703 8.1997 2.66102C9.76042 2.02501 11.4745 1.86529 13.1258 2.202C14.7772 2.53871 16.2919 3.35678 17.479 4.55307C18.6661 5.74935 19.4725 7.27031 19.7965 8.92421C20.1204 10.5781 19.9475 12.2909 19.2995 13.8467C18.6515 15.4024 17.5574 16.7315 16.1551 17.6664C14.7529 18.6013 13.1052 19.1001 11.4199 19.0999C9.14843 19.0891 6.97409 18.1774 5.3741 16.5651C3.77412 14.9527 2.87924 12.7714 2.88589 10.4999Z"
+                              fill="#E8E8E8"/>
+                    </svg>
+                </a></li>
+            </ul>
+        </div>
+        <div class="header__right">
+            <nav class="nav-menu">
+                <ul class="menu-right">
+                    <li class="menu-right__item">
+                        <label class="burger" for="burger_id">
+                            <svg width="32" height="23" viewBox="0 0 32 23" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z"
+                                      fill="#E8E8E8"/>
+                            </svg>
+                        </label>
+                        <input class="burger__check" type="checkbox" name="burger" id="burger_id">
+                        <ul class="burger-menu">
+                            <li><a class="close" href="#">
+                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path class="close-icon" d="M7.4158 6.00409L11.7158 1.71409C11.9041 1.52579 12.0099 1.27039 12.0099 1.00409C12.0099 0.73779 11.9041 0.482395 11.7158 0.294092C11.5275 0.105788 11.2721 0 11.0058 0C10.7395 0 10.4841 0.105788 10.2958 0.294092L6.0058 4.59409L1.7158 0.294092C1.52749 0.105788 1.2721 -1.9841e-09 1.0058 0C0.739497 1.9841e-09 0.484102 0.105788 0.295798 0.294092C0.107495 0.482395 0.0017066 0.73779 0.0017066 1.00409C0.0017066 1.27039 0.107495 1.52579 0.295798 1.71409L4.5958 6.00409L0.295798 10.2941C0.20207 10.3871 0.127676 10.4977 0.0769072 10.6195C0.0261385 10.7414 0 10.8721 0 11.0041C0 11.1361 0.0261385 11.2668 0.0769072 11.3887C0.127676 11.5105 0.20207 11.6211 0.295798 11.7141C0.388761 11.8078 0.499362 11.8822 0.621222 11.933C0.743081 11.9838 0.873786 12.0099 1.0058 12.0099C1.13781 12.0099 1.26852 11.9838 1.39038 11.933C1.51223 11.8822 1.62284 11.8078 1.7158 11.7141L6.0058 7.41409L10.2958 11.7141C10.3888 11.8078 10.4994 11.8822 10.6212 11.933C10.7431 11.9838 10.8738 12.0099 11.0058 12.0099C11.1378 12.0099 11.2685 11.9838 11.3904 11.933C11.5122 11.8822 11.6228 11.8078 11.7158 11.7141C11.8095 11.6211 11.8839 11.5105 11.9347 11.3887C11.9855 11.2668 12.0116 11.1361 12.0116 11.0041C12.0116 10.8721 11.9855 10.7414 11.9347 10.6195C11.8839 10.4977 11.8095 10.3871 11.7158 10.2941L7.4158 6.00409Z"
+                                          fill="#6F6E6E"/>
+                                </svg>
+                            </a></li>
+
+                            <li><h3 class="burger-menu__title">MENU</h3></li>
+                            <li>
+                                <ul class="burger-menu__section">
+                                    <li class="burger-menu__item"><a href="#">Accessories</a></li>
+                                    <li class="burger-menu__item"><a href="#">Bags</a></li>
+                                    <li class="burger-menu__item"><a href="#">Denim</a></li>
+                                    <li class="burger-menu__item"><a href="#">T-Shirts</a></li>
+                                </ul>
+                            </li>
+                            <li><h4 class="burger-menu__heading">WOMAN</h4></li>
+                            <li>
+                                <ul class="burger-menu__section">
+                                    <li class="burger-menu__item"><a href="#">Accessories</a></li>
+                                    <li class="burger-menu__item"><a href="#">Jackets & Coats</a></li>
+                                    <li class="burger-menu__item"><a href="#">Polos</a></li>
+                                    <li class="burger-menu__item"><a href="#">T-Shirts</a></li>
+                                    <li class="burger-menu__item"><a href="#">Shirts</a></li>
+                                </ul>
+                            </li>
+                            <li><h4 class="burger-menu__heading">KIDS</h4></li>
+                            <li>
+                                <ul class="burger-menu__section">
+                                    <li class="burger-menu__item"><a href="#">Accessories</a></li>
+                                    <li class="burger-menu__item"><a href="#">Jackets & Coats</a></li>
+                                    <li class="burger-menu__item"><a href="#">Polos</a></li>
+                                    <li class="burger-menu__item"><a href="#">T-Shirts</a></li>
+                                    <li class="burger-menu__item"><a href="#">Shirts</a></li>
+                                    <li class="burger-menu__item"><a href="#">Bags</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="menu-right__item"><a href="registration.html" class="menu__link">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.5 19.937C19 19.937 22.656 15.464 22.656 9.968C22.656 4.472 19 0 14.5 0C13.3631 0.0217413 12.2463 0.303398 11.2351 0.823397C10.2239 1.34339 9.34507 2.08794 8.66602 3C7.12663 4.99573 6.30819 7.45381 6.34399 9.974C6.34399 15.465 10 19.937 14.5 19.937ZM14.5 1.813C18 1.813 20.844 5.472 20.844 9.969C20.844 14.466 17.998 18.125 14.5 18.125C11.002 18.125 8.15603 14.465 8.15503 9.969C8.15403 5.473 11 1.813 14.5 1.813ZM20.844 18.125C20.6036 18.125 20.373 18.2205 20.203 18.3905C20.033 18.5605 19.9375 18.7911 19.9375 19.0315C19.9375 19.2719 20.033 19.5025 20.203 19.6725C20.373 19.8425 20.6036 19.938 20.844 19.938C22.526 19.9399 24.1386 20.6088 25.3279 21.7982C26.5172 22.9875 27.1861 24.6 27.188 26.282C27.1875 26.5221 27.0918 26.7523 26.922 26.9221C26.7522 27.0918 26.5221 27.1875 26.282 27.188H2.71997C2.47985 27.1875 2.24975 27.0918 2.07996 26.9221C1.91016 26.7523 1.81449 26.5221 1.81396 26.282C1.81608 24.6001 2.48517 22.9877 3.67444 21.7985C4.86371 20.6092 6.47608 19.9401 8.15796 19.938C8.39824 19.938 8.62868 19.8425 8.79858 19.6726C8.96849 19.5027 9.06396 19.2723 9.06396 19.032C9.06396 18.7917 8.96849 18.5613 8.79858 18.3914C8.62868 18.2215 8.39824 18.126 8.15796 18.126C5.99541 18.1279 3.92201 18.9875 2.39258 20.5164C0.863144 22.0453 0.00264777 24.1185 0 26.281C0.000794067 27.0019 0.287502 27.693 0.797241 28.2027C1.30698 28.7125 1.99811 28.9992 2.71899 29H26.282C27.0027 28.9989 27.6936 28.7121 28.2031 28.2024C28.7126 27.6927 28.9992 27.0017 29 26.281C28.9974 24.1187 28.1372 22.0457 26.6083 20.5168C25.0793 18.9878 23.0063 18.1276 20.844 18.125Z"
+                                  fill="#E8E8E8"/>
+                        </svg>
+                    </a></li>
+                    <li class="menu-right__item"><a href="cart.html" class="menu__link">
+                        <svg width="42" height="37" viewBox="0 0 42 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.2009 37C25.5532 36.9738 24.9415 36.6948 24.4972 36.2227C24.0529 35.7506 23.8114 35.1232 23.8245 34.475C23.8376 33.8269 24.1043 33.2097 24.5673 32.7559C25.0303 32.3022 25.6527 32.048 26.301 32.048C26.9493 32.048 27.5717 32.3022 28.0347 32.7559C28.4977 33.2097 28.7644 33.8269 28.7775 34.475C28.7906 35.1232 28.549 35.7506 28.1047 36.2227C27.6604 36.6948 27.0488 36.9738 26.401 37H26.2009ZM6.75293 34.32C6.75293 33.79 6.91011 33.2718 7.20459 32.8311C7.49907 32.3904 7.91764 32.0469 8.40735 31.844C8.89705 31.6412 9.43594 31.5881 9.95581 31.6915C10.4757 31.7949 10.9532 32.0502 11.328 32.425C11.7028 32.7998 11.9581 33.2773 12.0615 33.7972C12.1649 34.317 12.1118 34.8559 11.9089 35.3456C11.7061 35.8353 11.3626 36.2539 10.9219 36.5483C10.4812 36.8428 9.96304 37 9.43298 37C9.08087 37.0003 8.73212 36.9311 8.40674 36.7966C8.08136 36.662 7.78569 36.4646 7.53662 36.2158C7.28755 35.9669 7.09001 35.6713 6.9552 35.3461C6.82039 35.0208 6.75098 34.6721 6.75098 34.32H6.75293ZM10.553 28.686C10.2935 28.6868 10.0409 28.6024 9.83411 28.4457C9.62727 28.2891 9.47758 28.0689 9.40796 27.819L4.57495 10.364H1.18201C0.868521 10.364 0.567859 10.2395 0.346191 10.0178C0.124523 9.79614 0 9.49549 0 9.18201C0 8.86852 0.124523 8.56787 0.346191 8.3462C0.567859 8.12454 0.868521 8.00001 1.18201 8.00001H5.46301C5.7225 7.99919 5.97504 8.08372 6.18176 8.24057C6.38848 8.39742 6.53784 8.61788 6.60693 8.86801L11.4399 26.323H24.6179L29.001 16.275H14.401C14.2428 16.2796 14.0854 16.2524 13.9379 16.1951C13.7904 16.1377 13.6559 16.0513 13.5424 15.9411C13.4288 15.8308 13.3386 15.6989 13.277 15.5532C13.2154 15.4074 13.1836 15.2508 13.1836 15.0925C13.1836 14.9343 13.2154 14.7776 13.277 14.6319C13.3386 14.4861 13.4288 14.3542 13.5424 14.2439C13.6559 14.1337 13.7904 14.0473 13.9379 13.9899C14.0854 13.9326 14.2428 13.9054 14.401 13.91H30.814C31.0097 13.91 31.2022 13.9587 31.3744 14.0517C31.5465 14.1448 31.6928 14.2793 31.7999 14.443C31.9078 14.6073 31.9734 14.7957 31.9908 14.9914C32.0083 15.1872 31.9771 15.3842 31.9 15.565L26.495 27.977C26.4026 28.1876 26.251 28.3668 26.0585 28.4927C25.866 28.6186 25.641 28.6858 25.411 28.686H10.553Z"
+                                  fill="#E8E8E8"/>
+                            <path class="path__circle"
+                                  d="M31.502 19C36.7487 19 41.002 14.7467 41.002 9.5C41.002 4.25329 36.7487 0 31.502 0C26.2552 0 22.002 4.25329 22.002 9.5C22.002 14.7467 26.2552 19 31.502 19Z"
+                                  fill="#F16D7F"/>
+                            <path class="path__number"
+                                  d="M30.8146 7.648C31.2626 7.552 31.6746 7.504 32.0506 7.504C32.4986 7.504 32.8946 7.57 33.2386 7.702C33.5826 7.834 33.8686 8.016 34.0966 8.248C34.3286 8.48 34.5026 8.754 34.6186 9.07C34.7386 9.386 34.7986 9.73 34.7986 10.102C34.7986 10.558 34.7186 10.97 34.5586 11.338C34.4026 11.706 34.1846 12.022 33.9046 12.286C33.6286 12.546 33.3026 12.746 32.9266 12.886C32.5506 13.026 32.1446 13.096 31.7086 13.096C31.4566 13.096 31.2146 13.07 30.9826 13.018C30.7506 12.97 30.5326 12.904 30.3286 12.82C30.1286 12.736 29.9426 12.64 29.7706 12.532C29.5986 12.424 29.4466 12.31 29.3146 12.19L29.6446 11.734C29.7166 11.63 29.8106 11.578 29.9266 11.578C30.0066 11.578 30.0966 11.61 30.1966 11.674C30.2966 11.734 30.4186 11.802 30.5626 11.878C30.7066 11.954 30.8746 12.024 31.0666 12.088C31.2626 12.148 31.4946 12.178 31.7626 12.178C32.0626 12.178 32.3326 12.13 32.5726 12.034C32.8126 11.938 33.0186 11.802 33.1906 11.626C33.3626 11.446 33.4946 11.232 33.5866 10.984C33.6786 10.736 33.7246 10.458 33.7246 10.15C33.7246 9.882 33.6846 9.64 33.6046 9.424C33.5286 9.208 33.4106 9.024 33.2506 8.872C33.0946 8.72 32.8986 8.602 32.6626 8.518C32.4266 8.434 32.1506 8.392 31.8346 8.392C31.6186 8.392 31.3926 8.41 31.1566 8.446C30.9246 8.482 30.6866 8.54 30.4426 8.62L29.7706 8.422L30.4606 4.402H34.5346V4.87C34.5346 5.022 34.4866 5.148 34.3906 5.248C34.2986 5.344 34.1386 5.392 33.9106 5.392H31.2106L30.8146 7.648Z"
+                                  fill="white"/>
+                        </svg>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main">
+        <h1 class="hidden">REGISTRATION</h1>
+        <section class="second-header center">
+            <h2 class="second-header__title">REGISTRATION</h2>
+        </section>
+
+        <section class="registration center">
+
+                <div class="registration-form">
+
+                        <form action="#">
+                            <h3 class="registration-form__title">Your Name</h3>
+                            <label class="hidden" for="first-name">First Name</label>
+                            <input class="registration-form__input" type="text" id="first-name" name="first-name" placeholder="First Name">
+                            <label class="hidden" for="last-name">Last Name</label>
+                            <input class="registration-form__input" type="text" id="last-name" name="last-name" placeholder="Last Name">
+
+                            <div class="registration-form__gender">
+                                <input class="registration-form__radio" type="radio" id="gender1" name="gender" value="male" />
+                                <label class="registration-form__label" for="gender1">Male</label>
+                                <input class="registration-form__radio" type="radio" id="gender2" name="gender" value="female" />
+                                <label class="registration-form__label" for="gender2">Female</label>
+                                <input class="registration-form__radio registration-form__radio-weird" type="radio" id="gender3" name="gender" value="other" />
+                                <label class="registration-form__label registration-form__label-weird" for="gender3">Other</label>
+                            </div>
+
+                            <h3 class="registration-form__title">Login details</h3>
+                            <label class="hidden" for="e-mail">Email</label>
+                            <input class="registration-form__input" type="email" id="e-mail" name="e-mail" placeholder="Email">
+                            <label class="hidden" for="password">Password</label>
+                            <input class="registration-form__input" type="password" id="password" name="password" placeholder="Password">
+
+                            <p class="registration-form__desc">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+
+                            <button class="registration-form__btn" type="submit">
+                                JOIN NOW
+                                <svg class="registration-form__svg" width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.54 0.208095C11.6058 0.142131 11.684 0.0897967 11.77 0.0540883C11.8561 0.01838 11.9483 0 12.0415 0C12.1347 0 12.2269 0.01838 12.313 0.0540883C12.399 0.0897967 12.4772 0.142131 12.543 0.208095L16.7929 4.458C16.8589 4.5238 16.9112 4.60196 16.9469 4.68802C16.9826 4.77407 17.001 4.86632 17.001 4.95949C17.001 5.05266 16.9826 5.14491 16.9469 5.23097C16.9112 5.31702 16.8589 5.39518 16.7929 5.46098L12.543 9.71089C12.41 9.84389 12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.84389 11.54 9.71089C11.407 9.57788 11.3323 9.39749 11.3323 9.2094C11.3323 9.0213 11.407 8.84091 11.54 8.70791L15.2898 4.95949L11.54 1.21107C11.474 1.14528 11.4217 1.06711 11.386 0.981059C11.3503 0.895005 11.3319 0.802752 11.3319 0.709584C11.3319 0.616415 11.3503 0.524162 11.386 0.438109C11.4217 0.352055 11.474 0.273891 11.54 0.208095Z" fill="white"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.95948C0 4.77162 0.0746263 4.59146 0.207462 4.45862C0.340297 4.32579 0.52046 4.25116 0.708318 4.25116H15.583C15.7708 4.25116 15.951 4.32579 16.0838 4.45862C16.2167 4.59146 16.2913 4.77162 16.2913 4.95948C16.2913 5.14734 16.2167 5.3275 16.0838 5.46033C15.951 5.59317 15.7708 5.6678 15.583 5.6678H0.708318C0.52046 5.6678 0.340297 5.59317 0.207462 5.46033C0.0746263 5.3275 0 5.14734 0 4.95948Z" fill="white"/>
+                                </svg>
+                            </button>
+
+                        </form>
+
+                </div>
+                <div class="loyalty">
+                    <div class="loyalty__title">LOYALTY HAS ITS PERKS</div>
+                    <div class="loyalty__text">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</div>
+                    <ul class="loyalty__list">
+                        <li class="loyalty__item">15% off welcome offer</li>
+                        <li class="loyalty__item">Free shipping, returns and exchanges on all orders</li>
+                        <li class="loyalty__item">$10 off a purchase on your birthday</li>
+                        <li class="loyalty__item">Early access to products</li>
+                        <li class="loyalty__item">Exclusive offers & rewards</li>
+                    </ul>
+
+
+                </div>
+
+
+        </section>
+
+        <section class="subscribe">
+            <h2 class="hidden">Subscribe</h2>
+            <div class="subscribe-bg">
+                <div class="subscribe__content">
+                    <figure class="subscribe__quote">
+                        <img src="img/subscribe.png" alt="smiling woman" class="subscribe__quote-img">
+                        <p class="subscribe__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span
+                                class="text_italic">a
+                        pulvinar purus condimentum“</span></p>
+                    </figure>
+                    <div class="subscribe__form">
+                        <p class="subscribe__title">SUBSCRIBE</p>
+                        <p class="subscribe__desc">FOR OUR NEWSLETTER AND PROMOTION</p>
+                        <form class="subscribe__email-form" action="#">
+                            <label class="hidden" for="email">Email input</label>
+                            <input id="email" class="subscribe__email-input" type="email"
+                                   placeholder="Enter Your Email">
+                            <input value="Subscribe" class="subscribe__email-btn" type="button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer center">
+        <p class="footer__copyright">© 2022 Brand All Rights Reserved.</p>
+        <h2 class="hidden">Contacts</h2>
+        <ul class="footer__social-icons">
+            <li class="footer__icon-btn">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <svg class="social__icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon-path-bg" d="M31.9259 0H0.475342V32H31.9259V0Z" fill="white"/>
+                        <g clip-path="url(#clip0_190_1616)">
+                            <path
+                                    d="M16.7402 8.20312C13.5555 8.20312 10.4081 10.3406 10.4081 13.8C10.4081 16 11.6373 17.25 12.3822 17.25C12.6895 17.25 12.8664 16.3875 12.8664 16.1438C12.8664 15.8531 12.1308 15.2344 12.1308 14.025C12.1308 11.5125 14.0304 9.73125 16.4888 9.73125C18.6026 9.73125 20.167 10.9406 20.167 13.1625C20.167 14.8219 19.5058 17.9344 17.3641 17.9344C16.5912 17.9344 15.9301 17.3719 15.9301 16.5656C15.9301 15.3844 16.7495 14.2406 16.7495 13.0219C16.7495 10.9531 13.8349 11.3281 13.8349 13.8281C13.8349 14.3531 13.9001 14.9344 14.1329 15.4125C13.7045 17.2688 12.8292 20.0344 12.8292 21.9469C12.8292 22.5375 12.913 23.1188 12.9689 23.7094C13.0744 23.8281 13.0216 23.8156 13.183 23.7563C14.7474 21.6 14.6916 21.1781 15.3993 18.3562C15.7811 19.0875 16.7681 19.4812 17.5503 19.4812C20.8468 19.4812 22.3274 16.2469 22.3274 13.3313C22.3274 10.2281 19.6641 8.20312 16.7402 8.20312Z"
+                                    fill="black"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_190_1616">
+                                <rect width="11.9193" height="16" fill="white" transform="translate(10.4081 8)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer__icon-btn">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <svg class="social__icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon-path-bg" d="M31.6636 0H0.213013V32H31.6636V0Z" fill="white"/>
+                        <g clip-path="url(#clip0_190_1612)">
+                            <path
+                                    d="M22.4181 12.7411C22.4281 12.8832 22.4281 13.0253 22.4281 13.1675C22.4281 17.5025 19.1509 22.4974 13.161 22.4974C11.3156 22.4974 9.60132 21.9593 8.1593 21.0253C8.42149 21.0558 8.67357 21.0659 8.94585 21.0659C10.4685 21.0659 11.8702 20.5482 12.9895 19.6649C11.5576 19.6345 10.3576 18.6903 9.94415 17.3908C10.1458 17.4213 10.3475 17.4416 10.5593 17.4416C10.8517 17.4416 11.1442 17.4009 11.4164 17.3299C9.92401 17.0253 8.80465 15.7055 8.80465 14.1116V14.071C9.23825 14.3147 9.74249 14.467 10.2769 14.4873C9.39959 13.8984 8.82483 12.8933 8.82483 11.7563C8.82483 11.1472 8.98614 10.5888 9.26851 10.1015C10.8719 12.0913 13.282 13.3908 15.9844 13.5329C15.934 13.2893 15.9038 13.0355 15.9038 12.7817C15.9038 10.9746 17.3559 9.5025 19.1609 9.5025C20.0987 9.5025 20.9457 9.89844 21.5407 10.538C22.2768 10.3959 22.9827 10.1218 23.6079 9.74616C23.3659 10.5076 22.8516 11.1472 22.176 11.5533C22.8315 11.4822 23.4668 11.2994 24.0516 11.0457C23.608 11.6954 23.0533 12.274 22.4181 12.7411Z"
+                                    fill="black"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_190_1612">
+                                <rect width="15.8924" height="16" fill="white" transform="translate(8.1593 8)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <a class="on-top-btn" href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+            <path d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"
+                  fill="#E8E8E8"/>
+        </svg>
+    </a>
+
+
+</div>
+</body>
+</html>
