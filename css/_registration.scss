@@ -4,6 +4,8 @@
   display: flex;
   padding-top: 64px;
   margin-bottom: 96px;
+  margin-left: 8px;
+  margin-right: 8px;
   justify-content: space-between;
 }
 
@@ -140,10 +142,54 @@
 
 
 @media (max-width: 1024px) {
+  .loyalty {
+    width: 50%;
+
+    &__title {
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__item {
+      font-size: 16px;
+    }
+  }
+
+  .registration {
+    gap: 22px;
+    padding-top: 40px;
+  }
+
+  .registration-form {
+    width: 50%;
+    &__radio-weird {
+      display: block;
+    }
+    &__label-weird {
+      display: block;
+    }
+  }
+
+
 
 }
 @media (max-width: 768px) {
 
+  .registration {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .registration-form {
+    width: 100%;
+  }
+  .loyalty {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 @media (max-width: 375px) {
 
